@@ -1,5 +1,3 @@
-#Summary 
-
 - [BuildTask.nvim](#section-id-1)
   - [Features](#section-id-5)
   - [Requirements](#section-id-12)
