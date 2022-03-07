@@ -1,3 +1,11 @@
+<div id='section-id-1'/>
+
+# BuildTask.nvim
+
+Neovim Plugin to use build tasks similar to VScode
+
+# Table of Contents
+
 - [BuildTask.nvim](#section-id-1)
   - [Features](#section-id-5)
   - [Requirements](#section-id-12)
@@ -7,18 +15,12 @@
   - [Usage](#section-id-103)
   - [Feature Plan](#section-id-107)
   - [Contributing](#section-id-111)
-  
-
-
-<div id='section-id-1'/>
-
-# BuildTask.nvim
-
-Neovim Plugin to use build tasks similar to VScode
 
 <div id='section-id-5'/>
 
 ## Features
+
+**Note: this plugin is still in development and there might be some breaking changes**
 
 - Reads taks from a json file
 - Very similar to VScode's `task.json`
@@ -117,7 +119,7 @@ An example file is given below-
 | group   | As of now it must contain a isDefault field which <br> specifies if it is the default task or not                      | Required |
 | detail  | Any additional comments or details                                                                                     | Optional |
 
-Any additional field are just ignored and not used
+Any additional field are just ignored and not used. <br>
 It currently supports 3 variables in the json file -
 
 1. `${file}` - it is substituted for the file name in the active buffer
