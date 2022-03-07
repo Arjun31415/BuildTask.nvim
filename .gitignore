@@ -51,3 +51,6 @@ Session.vim
 # temp code files to test out the plugin
 **temp*
 task.json
+
+# a ruby file to make my life easier
+summarizeMD
