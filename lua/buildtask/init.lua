@@ -77,8 +77,8 @@ local function runDefaultTask(file_name, shell)
 
 end
 local function setup(config)
-    vim.api.nvim_add_user_command("Hello", utils.hello, {})
-    vim.api.nvim_add_user_command("BtBuildDefault", function()
+    vim.api.nvim_create_user_command("Hello", utils.hello, {})
+    vim.api.nvim_create_user_command("BtBuildDefault", function()
         runDefaultTask(vim.fn.expand('%'), default_shell)
     end, {})
 

@@ -1,4 +1,4 @@
-local function hello() print("Testing31415") end
+local function hello() print("Testing123") end
 local open = io.open
 function split(inputstr, sep)
     if sep == nil then sep = "%s" end
